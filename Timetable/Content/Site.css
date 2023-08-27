@@ -1,0 +1,151 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 8px;
+}
+
+
+
+/* GridView CSS*/
+
+.mydatagrid {
+    width: 80%;
+    border: solid 2px black;
+    min-width: 80%;
+}
+
+.button {
+    color: black;
+    background-color: black;
+}
+    
+
+.header {
+    background-color: #000;
+    font-family: Arial;
+    color: White;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+}
+
+    .rows:hover {
+        background-color: #5badff;
+        color: #fff;
+    }
+
+.mydatagrid a /** FOR THE PAGING ICONS **/ {
+    background-color: cornflowerblue;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .mydatagrid a:hover /** FOR THE PAGING ICONS HOVER STYLES**/ {
+        background-color: #000;
+        color: #fff;
+    }
+
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #fff;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: #5badff;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mydatagrid td {
+    padding: 5px;
+}
+
+.mydatagrid th {
+    padding: 5px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #777;
+    border-color: #fff
+}
+
+div.table {
+    position: relative;
+    padding: 8px;
+    top: 25px;
+    border-collapse: collapse;
+    border-width: 0px;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    line-height: 2em;
+    width: 100%;
+    left: 0px;
+}
+div.inputText {
+    padding: 8px;
+    float: left;
+    text-align: right;
+    padding-right: .5%;
+    width: 49.5%;
+}
+
+div.inputField {
+    padding: 8px;
+    float: right;
+    text-align: left;
+    width: 50%;
+}
+
+div.footer {
+    line-height: 2.5em;
+    display: table-row;
+    text-align: center;
+    width: 100%;
+}
+
+div.tableRow {
+    display: table-row;
+}
